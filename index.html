@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Typing Test Game</title>
+
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+
+<!-- header section starts      -->
+
+<header class="header">
+
+    <a href="index.html" class="logo"> <i class="fas fa-splotch"></i> Ahmad.Aziz </a>
+
+    <nav class="navbar">
+        <a href="index.html">Typing Test</a>
+    </nav>
+
+    <div id="menu-btn" class="fas fa-bars"></div>
+
+    <a href="index.html" class="btn">Restart</a>
+
+</header>
+
+<!-- header section ends     -->
+
+<!-- home section starts  -->
+
+<section class="home" id="home">
+
+    <div class="image">
+        <img src="images/home-img.svg" alt="">
+    </div>
+    
+    <div class="content">
+        <h3> <span class="line-down">Typing</span> Test Game </h3>
+        <p class="lead">Type The Given word within
+            <span class="text-success" 
+            id="seconds">10</span> Second:</p>
+
+        <!-- game start -->
+            <h3 class="input" id="current-word">Hello</h3>
+        <section class="newsletter">
+            <div class="content">
+                <form action="">
+                    <input type="text" name="" placeholder="typing test" id="word-input" class="text" autofocus>
+                </form>
+                <h4 class="pesan" id="message"></h4>
+            </div>
+        </section>
+        <div class="time">
+            <h3>Time Left:
+                <span id="time">0</span>
+            </h3>
+        </div>
+        <div class="score">
+            <h3>Score:
+                <span id="score">0</span>
+            </h3>
+            <br>
+            <h3>High score:
+                <span id="highscore">0</span> 
+            </h3>
+        </div>
+
+        <!-- game end -->
+
+
+        
+        <p> <span>Intruction</span>
+            <br>
+            Type each word in the given amount of second to score. To Play Again Just type the current word. your score will reset
+        </p>
+    </div>    
+</section>
+
+
+
+
+
+
+
+
+
+
+<!-- custom js file link  -->
+<script src="js/script.js"></script>
+
+    
+</body>
+</html>
